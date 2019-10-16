@@ -1,0 +1,31 @@
+{
+  "name": "@eclass/static-site-generator",
+  "description": "Useful for static sites and general documentation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eclass/static-site-generator"
+  },
+  "keywords": [
+    "eclass",
+    "site",
+    "generator",
+    "documentation"
+  ],
+  "author": "Raúl Hernández <raulghm@gmail.com> (https://raulghm.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eclass/static-site-generator/issues"
+  },
+  "homepage": "https://github.com/eclass/static-site-generator#readme",
+  "scripts": {
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "show-help": "vuepress --help"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/plugin-i18n-ui": "^1.0.0-alpha.30",
+    "@vuepress/plugin-medium-zoom": "^1.2.0",
+    "vuepress": "^1.2.0"
+  }
+}
